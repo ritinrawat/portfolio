@@ -7,7 +7,7 @@ const Projects = () => {
     {
         title: 'Grocery E-Commerce Website',
         description: 'A full stack grocery delivery web application similar to Blinkit, featuring product listing, cart management, user authentication, and online payments.',
-        image: '../public/image.png',
+        image: '/image.png',
         tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Razorpay', 'Tailwind'],
         github: 'https://github.com/ritinrawat/GroceryFrontend',
         demo: 'https://groceryfrontend-za4k.onrender.com',
@@ -16,7 +16,7 @@ const Projects = () => {
     {
         title: 'Grocery Admin Panel',
         description: 'An admin dashboard for managing products, categories, orders, and users, with secure authentication and role based access.',
-        image: '../public/admin.png',
+        image: '/admin.png',
         tags: ['EJS', 'Node.js', 'MongoDB' , 'Tailwind'],
         github: 'https://github.com/ritinrawat/Grocery',
         demo: 'https://grocery-x2ds.onrender.com',
@@ -25,7 +25,7 @@ const Projects = () => {
     {
         title: 'Uber Clone Application',
         description: 'A ride booking application with real time features, location tracking using Google Maps API, and WebSocket based communication.',
-        image: '../public/uber.png',
+        image: '/uber.png',
         tags: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Google Maps API'],
         github: 'https://github.com/ritinrawat/UberCloneFrontend',
         demo: 'https://uberclonefrontend.onrender.com',
