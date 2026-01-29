@@ -16,7 +16,7 @@ const About = () => {
                     >
                         <div className="relative z-10 rounded-2xl overflow-hidden glass-morphism p-2">
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop"
+                                src="https://media.istockphoto.com/id/2178848997/photo/indian-software-development-working-on-coding-computer-screen-and-flowchart-at-night-in.jpg?s=612x612&w=0&k=20&c=yWxtvhdowlilG_CPeVZ7AsQwHkYOFiCDqBUAtMj4RZk="
                                 alt="Profile"
                                 className="w-full h-[500px] object-cover rounded-xl"
                             />

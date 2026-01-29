@@ -16,28 +16,28 @@ const Hero = () => {
                     <span>Available for New Opportunities</span>
                 </motion.div>
 
-           <motion.h1
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5, delay: 0.1 }}
-  className="text-5xl md:text-8xl font-black mb-6 tracking-tighter"
->
-  MERN Stack <br />
-  <span className="text-gradient">Developer</span>
-</motion.h1>
+                <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.1 }}
+                    className="text-5xl md:text-8xl font-black mb-6 tracking-tighter"
+                >
+                    MERN Stack <br />
+                    <span className="text-gradient">Developer</span>
+                </motion.h1>
 
-<motion.p
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.5, delay: 0.2 }}
-  className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 leading-relaxed font-light"
->
-  Hi, I&apos;m <span className="text-white font-semibold">Ritin Rawat</span>.  
-  A MERN Stack Developer with 6 months of internship experience building full stack web applications.  
-  Skilled in React.js, Node.js, MongoDB, REST APIs, real time features.
-</motion.p>
+                <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    className="max-w-2xl mx-auto text-lg md:text-xl text-gray-400 mb-10 leading-relaxed font-light"
+                >
+                    Hi, I&apos;m <span className="text-white font-semibold">Ritin Rawat</span>.
+                    A MERN Stack Developer with 6 months of internship experience building full stack web applications.
+                    Skilled in React.js, Node.js, MongoDB, REST APIs, real time features.
+                </motion.p>
 
-              
+
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -49,7 +49,7 @@ const Hero = () => {
                         Explore My Work
                         <ArrowRight className="inline-block ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                     </a>
-                    <a href="/resume.pdf" download='Ritin-Rawat-Resume (4).pdf' className="btn-secondary group">
+                    <a href="./resume.pdf" download='Ritin-Rawat-Resume.pdf' className="btn-secondary group">
                         <Download className="inline-block mr-2 group-hover:-translate-y-1 transition-transform" size={20} />
                         Download CV
                     </a>
