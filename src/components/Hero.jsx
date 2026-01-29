@@ -49,7 +49,7 @@ const Hero = () => {
                         Explore My Work
                         <ArrowRight className="inline-block ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                     </a>
-                    <a href="./resume.pdf" download='Ritin-Rawat-Resume.pdf' className="btn-secondary group">
+                    <a href="./Ritin-Rawat-Resume.pdf" download='Ritin-Rawat-Resume.pdf' className="btn-secondary group">
                         <Download className="inline-block mr-2 group-hover:-translate-y-1 transition-transform" size={20} />
                         Download CV
                     </a>
