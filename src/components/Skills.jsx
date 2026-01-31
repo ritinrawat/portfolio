@@ -38,19 +38,19 @@ const Skills = () => {
             name: 'HTML5',
             icon: FaHtml5,
             color: '#E34F26',
-            topics: ['Semantic HTML', 'Accessibility (ARIA)','Canvas API', 'Web Storage', 'Forms & Inputs', 'Responsive Images']
+            topics: ['Semantic HTML', 'Web Storage', 'Forms & Inputs', 'Responsive Images']
         },
         {
             name: 'CSS3',
             icon: FaCss3Alt,
             color: '#1572B6',
-            topics: ['Animations & Transitions', 'Custom Properties (Variables)', 'Flexbox', 'CSS Grid', 'Box Model', 'Specificty', 'Preprocessors (SASS)']
+            topics: ['Animations & Transitions','Custom Properties (Variables)', 'Flexbox', 'CSS Grid', 'Box Model']
         },
         {
             name: 'Git',
             icon: FaGitAlt,
             color: '#F05032',
-            topics: ['Version Control', 'Branching Strategy', 'Collaboration (PRs)', 'Merge & Rebase', 'Git Hooks', 'CI/CD Pipelines', 'Merge Conflicts']
+            topics: ['Version Control', 'Branching Strategy', 'Repository', 'Git Hooks', 'Commit', 'Merge']
         },
         {
             name: 'Vite',
