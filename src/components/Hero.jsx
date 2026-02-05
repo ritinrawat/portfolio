@@ -51,7 +51,7 @@ const Hero = () => {
                     </a>
                     <a href="./Ritin-Rawat-Resume.pdf" download='Ritin-Rawat-Resume.pdf' className="btn-secondary group">
                         <Download className="inline-block mr-2 group-hover:-translate-y-1 transition-transform" size={20} />
-                        Download CV
+                        Download RESUME
                     </a>
                 </motion.div>
             </div>
